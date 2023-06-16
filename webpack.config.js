@@ -44,7 +44,9 @@ module.exports = (_, argv) => ({
       name: "counter_mf",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./CounterReact":"./src/components/Counter.tsx" // permite exponer el microfrontend
+      },
       shared: {
         ...deps,
         react: {
