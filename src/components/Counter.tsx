@@ -18,8 +18,8 @@ export const Counter = () => {
     return (
         <div className='Counter-container'>
             <h3>Counter: {counter}</h3>
-            <Button text='+' onClickCounter={onSumar} />
-            <Button text='-' onClickCounter={onRestar} />
+            <Button text='+ 1' onClickCounter={onSumar} />
+            <Button text='- 1' onClickCounter={onRestar} />
         </div>
     )
 }
