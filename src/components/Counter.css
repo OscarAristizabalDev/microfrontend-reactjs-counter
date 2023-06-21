@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&family=Roboto&display=swap');
+
 .Counter-container {
-    background-color: #444;
-  }
+  background-color: #444;
+  color: #FFF;
+  font-family: 'Finlandica', sans-serif;
+  padding: 1rem;
+  text-align: center;
+}
